@@ -16,3 +16,11 @@ add the following code to your page, preferably in the <head> tag.
 
 If you run into trouble, please look at the included example code to see how
 to best implement this
+
+--------------------------------------------------------------------------------
+
+canvas 兼容ie9以下
+<!--[if lt IE 9]>  
+  <script src="js/html5shiv.js"></script>  
+  <script src="js/excanvas.min.js"></script>
+<![endif]-->
