@@ -20,9 +20,10 @@ to best implement this
 --------------------------------------------------------------------------------
 
 canvas 兼容ie9以下
-<pre>
+
+```
 <!--[if lt IE 9]>  
   <script src="js/html5shiv.js"></script>  
   <script src="js/excanvas.min.js"></script>
 <![endif]-->
-<pre>
+```
